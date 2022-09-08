@@ -15,4 +15,4 @@ app.post('/api/movies', createMovie )
 app.put('/api/movies/:id', updateMovie)
 
 
-app.listen(4004, () => {console.log('Listening on port 4004')})
+app.listen(4050, () => {console.log('Listening on port 4050')})

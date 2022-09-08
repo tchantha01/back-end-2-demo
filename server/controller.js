@@ -26,8 +26,8 @@ module.exports = {
        res.status(200).send(movies)
     },
     updateMovie: (req, res) => {
-        // console.log(req.params.id)
-        // console.log(req.body)
+        console.log(req.params.id)
+        console.log(req.body)
         const {type} = req.body
         let index = movies.findIndex(element => element.id === +req.params.id)
         if(type = 'minus' && movies[index].rating > 1){
